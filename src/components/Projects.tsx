@@ -37,10 +37,10 @@ export default function Projects() {
     <section className="relative z-10 bg-[#121212] py-32 px-6 md:px-12 lg:px-24 border-t border-white/5">
       <div className="max-w-7xl mx-auto">
         <div className="mb-20">
-          <h2 className="text-5xl md:text-7xl font-bold tracking-tighter text-white mb-6">
-            Selected Work
+          <h2 className="font-display text-6xl md:text-8xl font-black tracking-tighter text-white mb-6 uppercase">
+            Selected <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-emerald-200">Work</span>
           </h2>
-          <p className="text-xl text-white/60 max-w-2xl font-light">
+          <p className="font-sans text-xl text-white/50 max-w-2xl font-light leading-relaxed">
             A collection of recent projects focusing on interactive front-end development, WebGL, and modern design systems.
           </p>
         </div>
@@ -75,10 +75,10 @@ export default function Projects() {
                     </svg>
                   </div>
                 </div>
-                <h3 className="text-3xl font-bold text-white group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-white group-hover:to-white/50 transition-all duration-300">
+                <h3 className="font-display text-4xl font-bold text-white group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-white group-hover:to-white/50 transition-all duration-300 tracking-tight leading-tight">
                   {project.title}
                 </h3>
-                <p className="text-white/60 mt-2 font-light">
+                <p className="font-sans text-white/50 mt-3 font-light leading-relaxed">
                   {project.description}
                 </p>
               </div>
